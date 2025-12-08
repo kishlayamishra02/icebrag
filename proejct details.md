@@ -6,27 +6,27 @@ This is everything we need to know. Just read it, and we're good to go.
 
 ## Message from Me :)
 
-"Hey everyone, thanks for making time for this. I'm really excited about what we're about to build. So quick intro - I'm Kishlaya, I'll be managing this project and making sure we stay on track.
+Hey everyone, thanks for making time for this. I'm really excited about what we're about to build. So quick intro - I'm Kishlaya, I'll be managing this project and making sure we stay on track.
 
 We have 10 days to build something really cool called Icebrag. It's going to be a fun app where people can get random icebreaker questions, submit their own questions, vote on the best ones, and even generate questions using AI. It's simple, it's useful, and it's something we can all be proud of.
 
-I know some of you might be wondering why we're doing this. Honestly, we are a team of talented developers, and instead of just talking about building something, let's actually build it together. This will look amazing on everyone's portfolio, and we'll learn a ton in the process."
+I know some of you might be wondering why we're doing this. Honestly, we are a team of talented developers, and instead of just talking about building something, let's actually build it together. This will look amazing on everyone's portfolio, and we'll learn a ton in the process.
 
 ---
 
 ## What We're Building
 
-"Okay, so imagine you're in a team meeting or a social event, and things are awkward. What do you do? You use Icebrag. You open it on your phone, click a button, and boom - you get a random icebreaker question. You can filter by what kind of question you want - funny, professional, deep, whatever. You can vote on questions that are actually good. You can submit your own questions so others can use them. And if you want something creative, you can generate an AI question using Google's Gemini API.
+Okay, so imagine you're in a team meeting or a social event, and things are awkward. What do you do? You use Icebrag. You open it on your phone, click a button, and boom - you get a random icebreaker question. You can filter by what kind of question you want - funny, professional, deep, whatever. You can vote on questions that are actually good. You can submit your own questions so others can use them. And if you want something creative, you can generate an AI question using Google's Gemini API.
 
 That's it. Simple, but actually useful. And it's something we can build in 10 days.
 
-The app is going to work on desktop and mobile. It's going to be fast. It's going to look good. And most importantly, it's going to work properly."
+The app is going to work on desktop and mobile. It's going to be fast. It's going to look good. And most importantly, it's going to work properly.
 
 ---
 
 ## The Tech Stack
 
-"Let me break down what we're using, because you all need to know this:
+Let me break down what we're using, because you all need to know this:
 
 **Frontend - React and Vite:**
 We're using React because it's what we know, and Vite because it's faster than Create React App. This handles all the UI stuff - the buttons, forms, the questions display, everything the user sees.
@@ -40,13 +40,13 @@ This is how we generate creative questions. We send Gemini a prompt, it generate
 **Hosting:**
 Frontend goes on Netlify. Backend is handled by Supabase. AI endpoint goes on Vercel. All free to start.
 
-So basically: You code in React, you talk to Supabase from the frontend, Supabase stores the data, you call Gemini API for AI questions. That's the whole thing."
+So basically: You code in React, you talk to Supabase from the frontend, Supabase stores the data, you call Gemini API for AI questions. That's the whole thing.
 
 ---
 
 ## Team Roles and Responsibilities
 
-"Okay, so here's what each of you is doing. I've already sent out your assignments, but let me explain:
+Okay, so here's what each of you is doing. I've already sent out your assignments, but let me explain:
 
 **Abinash - Frontend Developer 1:**
 Your job is to build the main interface. The random question button, the question display card, the category filtering. You're connecting the frontend to Supabase and making sure we can fetch questions and display them. You're also integrating the AI button on Day 3. Think of yourself as the person who makes sure users can actually interact with questions.
@@ -69,13 +69,13 @@ You're like the utility player. If anyone gets stuck, you help them. You also ad
 **Me - Product Manager:**
 I'm organizing everyone. I'm in standups every day checking that we're on track. I'm reviewing code. I'm making sure you're not blocked. I'm also the decision maker - if we need to cut a feature or change something, I decide that.
 
-Everyone clear on their role? Good. Because the next 10 days, you're going to be heads down building."
+Everyone clear on their role? Good. Because the next 10 days, you're going to be heads down building.
 
 ---
 
 ## The 10-Day Timeline
 
-"Alright, here's how the next 10 days are going to go:
+Alright, here's how the next 10 days are going to go:
 
 **Day 1 - Today - Setup and Planning:**
 This is foundation day. aAman, you're creating Supabase and seeding test data. Abinash, you're creating the React app and basic layout. Anshuman, you're building the components we need. Kamran, you're setting up the Gemini API. Shiven, you're writing the test plan and docs. By the end of today, everyone should be able to run the app locally. We're aiming for 15% done.
@@ -93,13 +93,13 @@ Shiven, you're testing everything thoroughly. Everyone is fixing bugs. We're mak
 Abinash, you deploy the frontend to Netlify. Kamran, you deploy the API. We test the live website. By end of Day 7, the app is actually live on the internet. 85% done.
 
 **Days 8-10 - Launch and Next Phase:**
-We announce it to the team. We collect feedback. We fix anything that breaks in production. We plan what's next - maybe dark mode, sharing features, user accounts. By Day 10, we're done and we celebrate. 100% done."
+We announce it to the team. We collect feedback. We fix anything that breaks in production. We plan what's next - maybe dark mode, sharing features, user accounts. By Day 10, we're done and we celebrate. 100% done.
 
 ---
 
 ## How We're Working Together
 
-"So we've got 10 days. That's actually tight. Here's how we make sure we don't mess it up:
+So we've got 10 days. That's actually tight. Here's how we make sure we don't mess it up:
 
 **Communication:**
 We're using Whastapp for quick messages. If you have a question, ask there. Don't wait. If I'm bottlenecking something, let me know.
@@ -114,13 +114,13 @@ Every morning, 10 AM IST, we do a 15-minute standup. You say: what did you do ye
 This is important. Everyone works on dev branch. Branch names are descriptive: feature/random-question, feature/voting-system, whatever. Commit messages are clear. When you're done with a feature, you push and create a PR. Someone reviews it, then it gets merged. We never push directly to main. Main is only for working code.
 
 **Testing:**
-Shiven, you're testing. But also, everyone should test their own code first before pushing. Test locally, test on mobile, test edge cases. Don't wait for Shiven to find your bugs."
+Shiven, you're testing. But also, everyone should test their own code first before pushing. Test locally, test on mobile, test edge cases. Don't wait for Shiven to find your bugs.
 
 ---
 
 ## What Success Looks Like
 
-"Here's what we need to hit to say we did good:
+Here's what we need to hit to say we did good:
 
 By end of Day 7:
 - The app is deployed and live
@@ -139,13 +139,13 @@ By end of Day 10:
 - We fixed anything broken
 - We know what to build next
 
-That's it. That's the bar."
+That's it. That's the bar.
 
 ---
 
 ## Common Issues We're Heading Off
 
-"I'm going to predict some things that might go wrong, and let's just agree on how we handle them:
+I'm going to predict some things that might go wrong, and let's just agree on how we handle them:
 
 **API keys getting committed to GitHub:**
 Don't do this. Use .env files. Iaman, Kamran, make sure the team knows this.
@@ -163,13 +163,13 @@ Tell me immediately. We figure out if we cut it or extend the deadline. Don't ju
 We fix it fast. Priority number one. Everything else pauses.
 
 **Someone gets stuck:**
-Ask for help. Seriously. Don't struggle alone for 3 hours. Five minutes of asking saves you 2 hours of spinning."
+Ask for help. Seriously. Don't struggle alone for 3 hours. Five minutes of asking saves you 2 hours of spinning.
 
 ---
 
 ## Deliverables and Documentatio
 
-"Shiven, you're responsible for making sure we have:
+Shiven, you're responsible for making sure we have:
 
 - Getting started guide - how to set up the project locally
 - API documentation - how the Supabase and Gemini APIs work
@@ -179,13 +179,13 @@ Ask for help. Seriously. Don't struggle alone for 3 hours. Five minutes of askin
 
 These don't need to be fancy. They just need to be clear. Think of them as guides for someone who's never seen the project before.
 
-Everyone else, when you write code, write it clearly. Comment the confusing parts. Name variables well. Shiven will read it and write docs, but help them out."
+Everyone else, when you write code, write it clearly. Comment the confusing parts. Name variables well. Shiven will read it and write docs, but help them out.
 
 ---
 
 ## Final Checklist
 
-"Okay, before we jump in, let me make sure everyone has what they need:
+Okay, before we jump in, let me make sure everyone has what they need:
 
 Everyone:
 - Do you have the GitHub repo link?
@@ -203,13 +203,13 @@ Shiven:
 Abinash and anshuman:
 - Are you ready to get Iaman's credentials and start building the React app?
 
-If Yes? Great. Then we're good to go."
+If Yes? Great. Then we're good to go.
 
 ---
 
 ## The Actual Ask
 
-"So here's what I need from you all:
+So here's what I need from you all:
 
 One: Be all in. We're doing this for the next 10 days. That means focusing on this project. If you're on another project at the same time, let me know so I can adjust expectations.
 
@@ -219,7 +219,7 @@ Three: Take ownership. You're not working for me. You're building this with me. 
 
 Four: Quality over speed. Yeah, we're in a rush, but we're not shipping garbage. Test your code. Make sure it works. Make sure it doesn't break other people's code.
 
-Five: Have fun with this. You're building something real. People are going to use it. That's cool. Enjoy that."
+Five: Have fun with this. You're building something real. People are going to use it. That's cool. Enjoy that.
 
 ---
 
