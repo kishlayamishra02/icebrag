@@ -18,7 +18,7 @@ This is our complete step-by-step guide to building Icebrag from scratch. Everyo
 
 This day is all about getting the foundation ready. Everyone should be able to run the project locally by the end of the day.
 
-### What Kishlaya (PM) Should Do
+### What Kishlaya (PM) Should Do - Almost Completed
 
 **Morning - 2-3 hours**
 
@@ -37,10 +37,6 @@ This day is all about getting the foundation ready. Everyone should be able to r
    - 10-day timeline with daily goals
    - Git rules: everyone works on dev branch, only merge to main when tested
 
-3. Set up a GitHub Issues/Kanban board
-   - Create issues for each feature
-   - Label them by feature type, priority, and assign to team members
-   - Organize into time-based milestones (Day 1-2, Day 3-4, etc.)
 
 **Afternoon - 1 hour**
 
@@ -48,7 +44,7 @@ This day is all about getting the foundation ready. Everyone should be able to r
 
 ---
 
-### What iaman08 (Backend Dev) Should Do
+### What Aman (Backend Dev) Should Do
 
 **Morning - 4-5 hours**
 
@@ -310,7 +306,7 @@ test();
 
 ---
 
-### What anshuman-work (Frontend Dev 2) Should Do
+### What Anshuman (Frontend Dev 2) Should Do
 
 **Afternoon - 2-3 hours**
 
@@ -568,7 +564,7 @@ test();
 
 ---
 
-### What Md. Kamran Alam (AI Integration Dev) Should Do
+### What Kamran (AI Integration Dev) Should Do
 
 **Afternoon - 2 hours**
 
@@ -697,7 +693,7 @@ test();
 
 ---
 
-### What srishtimehta-13 (Full-Stack Support) Should Do
+### What Srishti Mehta (Full-Stack Support) Should Do
 
 **Afternoon - 1 hour**
 
@@ -728,7 +724,7 @@ Progress: 0% to 15%
 
 Now we connect all the pieces. The frontend should talk to Supabase, and basic features should work.
 
-### What iaman08 (Backend Dev) Should Do
+### What Aman (Backend Dev) Should Do
 
 **Morning - 3-4 hours**
 
@@ -939,7 +935,7 @@ git push origin dev
 
 ---
 
-### What anshuman-work (Frontend Dev 2) Should Do
+### What Anshuman (Frontend Dev 2) Should Do
 
 **Morning - 3 hours**
 
@@ -1284,7 +1280,7 @@ git push origin dev
 
 ---
 
-### What srishtimehta-13 (Full-Stack Support) Should Do
+### What Srishti (Full-Stack Support) Should Do
 
 **Morning - 3-4 hours**
 
