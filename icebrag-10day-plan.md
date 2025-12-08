@@ -1,6 +1,6 @@
 # Icebrag: 10-Day Development Plan
 
-This is your complete step-by-step guide to building Icebrag from scratch. Everyone should follow this, and we'll get from zero to a fully launched app in 10 days.
+This is our complete step-by-step guide to building Icebrag from scratch. Everyone should follow this, and we'll get from zero to a fully launched app in 10 days.
 
 ## Your Team
 
@@ -10,7 +10,7 @@ This is your complete step-by-step guide to building Icebrag from scratch. Every
 4. **Md. Kamran Alam** - AI Integration Developer
 5. **Shiven Kathuria** - QA and Documentation
 6. **srishtimehta-13** - Full-Stack Support
-7. **Kishlaya (You)** - Product Manager
+7. **Kishlaya (Me)** - Product Manager
 
 ---
 
