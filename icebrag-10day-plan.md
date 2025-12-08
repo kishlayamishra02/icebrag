@@ -2,7 +2,7 @@
 
 This is our complete step-by-step guide to building Icebrag from scratch. Everyone should follow this, and we'll get from zero to a fully launched app in 10 days.
 
-## Your Team
+## Our Team
 
 1. **Abinash Karan** - Frontend Developer 1
 2. **anshuman-work** - Frontend Developer 2
@@ -44,17 +44,7 @@ This day is all about getting the foundation ready. Everyone should be able to r
 
 **Afternoon - 1 hour**
 
-4. Schedule and run a kickoff meeting (suggested: 6 PM IST on Day 1)
-   - 5 min: explain what Icebrag is and why we're building it
-   - 5 min: show the tech stack and explain each tool
-   - 10 min: clarify everyone's roles and daily responsibilities
-   - 5 min: explain Git workflow (how to name branches, write commit messages)
-   - 5 min: set up communication (use Discord or Slack for quick messages)
-
-After the meeting, share with the team:
-- Link to GitHub repo
-- Link to project document
-- Kickoff call timing
+4. See PrjectDetails.md
 
 ---
 
