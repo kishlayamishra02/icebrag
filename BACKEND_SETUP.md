@@ -5,7 +5,7 @@ It includes database schema, RLS policies, test data insertion, and how the fron
 
 ---
 
-## ✅ 1. Supabase Project
+##  1. Supabase Project
 
 A Supabase project was created at:  
 - **Project Name:** icebrag  
@@ -13,7 +13,7 @@ A Supabase project was created at:
 
 ---
 
-## ✅ 2. Database Table: `questions`
+##  2. Database Table: `questions`
 
 Use the following SQL to create the table:
 
