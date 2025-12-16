@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window", "esnext"],
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-read --allow-write src/supabase/functions/server/index.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.7.1/mod.ts",
+    "hono/cors": "https://deno.land/x/hono@v3.7.1/middleware/cors/index.ts",
+    "hono/logger": "https://deno.land/x/hono@v3.7.1/middleware/logger/index.ts",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.39.0"
+  },
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["node_modules"]
+  },
+  "fmt": {
+    "include": ["src/"],
+    "exclude": ["node_modules"]
+  }
+}
