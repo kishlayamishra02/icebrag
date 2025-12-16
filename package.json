@@ -34,7 +34,7 @@
             "clsx": "*",
             "cmdk": "^1.1.1",
             "embla-carousel-react": "^8.6.0",
-            "hono": "*",
+            "hono": "^4.11.1",
             "input-otp": "^1.4.2",
             "lucide-react": "^0.487.0",
             "motion": "*",
@@ -51,7 +51,9 @@
             "vaul": "^1.1.2"
       },
       "devDependencies": {
-            "@types/node": "^20.10.0",
+            "@types/node": "^20.19.27",
+            "@types/react": "^19.2.7",
+            "@types/react-dom": "^19.2.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
             "vite": "^6.4.1"
       },
