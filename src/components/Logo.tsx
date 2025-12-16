@@ -1,11 +1,12 @@
 import React from 'react';
 
 interface LogoProps {
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'sm' | 'md' | 'lg' | 'xs';
 }
 
 export function Logo({ size = 'lg' }: LogoProps) {
   const sizeClasses = {
+    xs: 'text-xl',
     sm: 'text-2xl',
     md: 'text-4xl',
     lg: 'text-6xl',

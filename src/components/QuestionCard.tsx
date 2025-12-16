@@ -38,7 +38,7 @@ export function QuestionCard({ question, category, isAI = false, onSwipe, index 
       onDragStart={() => setIsDragging(true)}
       onDragEnd={handleDragEnd}
       style={{ x, rotate, opacity }}
-      className="absolute w-full cursor-grab active:cursor-grabbing"
+      className="w-full h-full cursor-grab active:cursor-grabbing"
     >
       <div className="bg-white border-4 border-black rounded-3xl p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative overflow-hidden">
         {/* YES/NO overlays */}

@@ -7,7 +7,8 @@ interface PersonaSelectorProps {
   onSelect: (persona: Persona) => void;
 }
 
-const personaConfig: Record<Persona, { icon: React.ReactNode; color: string; description: string }> = {
+
+const personaConfig = {
   Funny: { 
     icon: <SmilePlus className="w-6 h-6" />, 
     color: '#FFE500', 
@@ -38,7 +39,22 @@ const personaConfig: Record<Persona, { icon: React.ReactNode; color: string; des
     color: '#4ADE80', 
     description: 'Warm & positive' 
   },
-};
+    Empathetic: { 
+    icon: <Heart className="w-6 h-6" />,  // You might want to choose a different icon
+    color: '#3B82F6', 
+    description: 'Understanding & compassionate' 
+  },
+  Bold: { 
+    icon: <Zap className="w-6 h-6" />,  // You might want to choose a different icon
+    color: '#F59E0B', 
+    description: 'Confident & daring' 
+  },
+  Wise: { 
+    icon: <Sparkles className="w-6 h-6" />,  // You might want to choose a different icon
+    color: '#8B5CF6', 
+    description: 'Insightful & thoughtful' 
+  },
+} as const satisfies Record<Persona, { icon: React.ReactNode; color: string; description: string }>;
 
 const rotations = ['sticker-rotate-1', '', 'sticker-rotate-2', 'sticker-rotate-3', '', 'sticker-rotate-1'];
 

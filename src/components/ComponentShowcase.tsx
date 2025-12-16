@@ -21,8 +21,8 @@ export function ComponentShowcase() {
           <div className="flex flex-wrap gap-4 mb-4">
             <Button variant="primary">Primary Button</Button>
             <Button variant="secondary">Secondary Button</Button>
-            <Button variant="outline">Outline Button</Button>
-            <Button variant="ghost">Ghost Button</Button>
+            <Button variant="secondary">Secondary Button</Button>
+            <Button variant="secondary">Secondary Button</Button>
           </div>
           <div className="flex flex-wrap gap-4 mb-4">
             <Button variant="primary" disabled>Disabled Primary</Button>

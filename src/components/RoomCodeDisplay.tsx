@@ -3,9 +3,10 @@ import { Copy, Check } from 'lucide-react';
 
 interface RoomCodeDisplayProps {
   roomCode: string;
+  compact?: boolean;
 }
 
-export function RoomCodeDisplay({ roomCode }: RoomCodeDisplayProps) {
+export function RoomCodeDisplay({ roomCode, compact = false }: RoomCodeDisplayProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -15,9 +16,9 @@ export function RoomCodeDisplay({ roomCode }: RoomCodeDisplayProps) {
   };
 
   return (
-    <div className="brutalist-border bg-white p-6 flex items-center justify-between sticker-rotate-2">
+    <div className={`brutalist-border bg-white ${compact ? 'p-3' : 'p-6'} flex items-center justify-between sticker-rotate-2`}>
       <div>
-        <div className="text-sm opacity-70 uppercase tracking-wider mb-1">Room Code</div>
+        {!compact && <div className="text-sm opacity-70 uppercase tracking-wider mb-1">Room Code</div>}
         <div className="text-3xl tracking-widest">{roomCode}</div>
       </div>
       <button

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["node", "@types/node"],
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@supabase/supabase-js": ["./node_modules/@supabase/supabase-js/dist/module/index.js"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

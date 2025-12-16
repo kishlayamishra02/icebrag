@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Screen, GameMode, Persona, Category, Question, SessionStats, Player } from './types';
 import { generateQuestions, generateRoomCode } from './utils/questionGenerator';
 import { LobbyScreen } from './components/LobbyScreen';
-import { SwipeScreen } from './components/SwipeScreen';
 import { ResultsScreen } from './components/ResultsScreen';
+import { SwipeScreen } from './components/SwipeScreen';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('lobby');

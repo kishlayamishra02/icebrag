@@ -1,21 +1,33 @@
+// This file provides a simple key-value interface for storing Figma Make data.
+// It uses Deno's Supabase client for Edge Functions.
 
+import { createClient } from '@supabase/supabase-js';
 
-/* Table schema:
-CREATE TABLE kv_store_7dc63255 (
-  key TEXT NOT NULL PRIMARY KEY,
-  value JSONB NOT NULL
-);
-*/
+// Table schema:
+// CREATE TABLE kv_store_7dc63255 (
+//   key TEXT NOT NULL PRIMARY KEY,
+//   value JSONB NOT NULL
+// );
 
-// View at https://supabase.com/dashboard/project/osfemxmdgwnskunisugf/database/tables
+// Get Supabase URL and key from environment variables
+const supabaseUrl = process.env.SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
 
-// This file provides a simple key-value interface for storing Figma Make data. It should be adequate for most small-scale use cases.
-import { createClient } from "jsr:@supabase/supabase-js@2.49.8";
+if (!supabaseUrl || !supabaseKey) {
+  throw new Error('Missing Supabase environment variables. Please set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY');
+}
 
-const client = () => createClient(
-  Deno.env.get("SUPABASE_URL"),
-  Deno.env.get("SUPABASE_SERVICE_ROLE_KEY"),
-);
+type Json = string | number | boolean | null | { [key: string]: Json } | Json[];
+
+export function client() {
+  return createClient(supabaseUrl, supabaseKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+      detectSessionInUrl: false
+    }
+  });
+}
 
 // Set stores a key-value pair in the database.
 export const set = async (key: string, value: any): Promise<void> => {
